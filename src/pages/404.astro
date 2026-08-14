@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+Astro.response.status = 404
+---
+
+<Layout
+  locale="zh"
+  title="Page not found | Agent Launcher"
+  description="The requested Agent Launcher page could not be found."
+  robots="noindex, nofollow"
+>
+  <main class="grid min-h-screen place-content-center justify-items-center p-6 text-center">
+    <img class="mb-[18px] size-16" src="/app-icon.png" alt="" />
+    <h1 class="m-0 text-7xl leading-none font-bold">404</h1>
+    <p class="mt-2.5 mb-6 text-muted">这条路径还没有内容。</p>
+    <a class="rounded-md bg-ink px-[18px] py-[11px] font-semibold text-white no-underline" href="/">
+      返回 Agent Launcher
+    </a>
+  </main>
+</Layout>

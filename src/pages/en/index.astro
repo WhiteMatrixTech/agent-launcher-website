@@ -1,0 +1,12 @@
+---
+import { App } from '../../App'
+import Layout from '../../layouts/Layout.astro'
+
+const title = 'Agent Launcher | Six coding agents, one-click install, configure, and launch'
+const description =
+  'A local desktop workspace to install, configure, and launch Claude Code, Codex CLI, OpenCode, Pi, Gemini CLI, and Hermes Agent in one click.'
+---
+
+<Layout locale="en" title={title} description={description} canonicalPath="/en/">
+  <App client:load locale="en" />
+</Layout>

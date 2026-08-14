@@ -1,0 +1,12 @@
+---
+import { App } from '../App'
+import Layout from '../layouts/Layout.astro'
+
+const title = 'Agent Launcher | 六个编程 Agent，一键安装、配置并启动'
+const description =
+  'Agent Launcher 是一个本地桌面工作台，可一键安装、配置并启动 Claude Code、Codex CLI、OpenCode、Pi、Gemini CLI 与 Hermes Agent。'
+---
+
+<Layout locale="zh" title={title} description={description} canonicalPath="/">
+  <App client:load locale="zh" />
+</Layout>

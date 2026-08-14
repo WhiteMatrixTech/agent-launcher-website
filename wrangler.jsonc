@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "agent-launcher-homepage",
+  "account_id": "bf7a009ee5034e5743a0e77aacffbe0a",
+  "compatibility_date": "2026-08-06",
+  "assets": {
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "observability": {
+    "enabled": true
+  }
+}
